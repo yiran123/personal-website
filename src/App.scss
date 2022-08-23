@@ -19,18 +19,20 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  //background-color: red;
-  height: 40vh;
-}
-
-.container-fluid {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    max-height: 326px;
+    margin-top: 14rem;
+  }
 }
 
 .ant-menu {
   background: rgba(0, 0, 0, 0) !important;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -41,13 +43,15 @@
     align-items: center;
 }
 
-.logo-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  img {
-    max-height: 326px;
-  }
+
+h1 {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #0F244F;
 }
 
 @keyframes App-logo-spin {
@@ -56,5 +60,27 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.ant-layout-content {
+  padding-top: 14rem;
+  background-color: #fff;
+  .pic-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    .img-section {
+      img {
+        width: 20vw;
+        padding: 0 15px;
+      }
+      text-align: center;
+    }
+    .low {
+      margin-top: 123px;
+    }
   }
 }
