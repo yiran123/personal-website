@@ -14,7 +14,12 @@
 }
 
 .logo-section {
-  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0)), url('assets/img/BG-01.png') no-repeat center center fixed;
+  background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0)
+    ),
+    url("assets/img/BG-01.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,26 +37,149 @@
 
 .ant-menu {
   background: rgba(0, 0, 0, 0) !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100px;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 
-
-h1 {
-  font-family: 'Josefin Sans';
+.title_name {
+  font-family: "Josefin Sans";
   font-style: normal;
-  font-weight: 200;
+  font-weight: 200 !important;
   font-size: 48px;
   line-height: 48px;
   text-align: center;
-  color: #0F244F;
+  color: #0f244f;
+  margin-top: 32px;
+}
+
+.subtitle {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 200 !important;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #0f244f;
+}
+
+.content-pic {
+  width: 267px;
+  height: 403px;
+}
+
+.content {
+  padding-top: 1rem;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.architecture {
+  background: url(./assets/img/ARC-Design-b.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  &:hover {
+    background: url(./assets/img/ARC-Design-Hover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.interiorDesign {
+  background: url(./assets/img/Interior-Design-b.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  &:hover {
+    background: url(./assets/img/Interior-Design-Hover.jpg) no-repeat center
+      center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.UXUIDesign {
+  background: url(./assets/img/UXUI-Design-b.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  &:hover {
+    background: url(./assets/img/UXUI-Design-Hover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.graphicDesign {
+  background: url(./assets/img/Graphic-Design-b.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  &:hover {
+    background: url(./assets/img/Graphic-Design-Hover.jpgy) no-repeat center
+      center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.children1_aboutMe {
+  position: relative;
+  top: 0;
+  width: 503px;
+  height: 590px;
+  left: 136px;
+  background: rgba(73, 93, 131, 0.7);
+  box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.children2_background {
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  height: 587px;
+  img {
+    height: 587px;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -73,14 +201,17 @@ h1 {
     margin: 0 auto;
     justify-content: center;
     .img-section {
-      img {
-        width: 20vw;
-        padding: 0 15px;
-      }
+      width: 20vw;
+      padding: 0 16px;
       text-align: center;
     }
     .low {
       margin-top: 123px;
     }
   }
+}
+
+.ant-layout-footer {
+  background: #fff !important;
+  padding: 20rem 0 0 0 !important;
 }

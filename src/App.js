@@ -3,6 +3,11 @@ import ARCDesignB from "./assets/img/ARC-Design-b.jpg";
 import GraphicDesignB from "./assets/img/Graphic-Design-b.jpg";
 import InteriorDesignB from "./assets/img/Interior-Design-b.jpg";
 import UXUIDesignB from "./assets/img/UXUI-Design-b.jpg";
+import UXUIDesignHover from "./assets/img/UXUI-Design-Hover.jpg";
+import InteriorDesignHover from "./assets/img/Interior-Design-Hover.jpg";
+import GraphicDesignHover from "./assets/img/Graphic-Design-Hover.jpg";
+import ARCDesignHover from "./assets/img/ARC-Design-Hover.jpg";
+import aboutMe from "./assets/img/About-me.jpg";
 import "./App.scss";
 import { useEffect, useState } from "react";
 import {
@@ -99,30 +104,41 @@ const App = () => {
             items={items}
           />
           <img src={logo} alt="Erix logo" />
-          <h1>ERIX CHEN</h1>
-          <h3>to dream · to think · to create</h3>
+          <span className="title_name">ERIX CHEN</span>
+          <span className="subtitle">to dream · to think · to create</span>
         </div>
         <Content>
           <div className="pic-section">
             <div className="img-section low">
-              <img src={ARCDesignB} alt="ARC Design BW" />
-              <p>ARCHITECTURE</p>
+              <div className="architecture content-pic"></div>
+              {/* <img src={ARCDesignB} alt="ARC Design BW" /> */}
+              <p className="content">ARCHITECTURE</p>
             </div>
             <div className="img-section">
-              <img src={InteriorDesignB} alt="Interior Design BW" />
-              <p>INTERIOR DESIGN</p>
+              <div className="interiorDesign content-pic"></div>
+              {/* <img src={InteriorDesignB} alt="Interior Design BW" /> */}
+              <p className="content">INTERIOR DESIGN</p>
             </div>
             <div className="img-section low">
-              <img src={UXUIDesignB} alt="UXUI Design BW" />
-              <p>UX/UI DESIGN</p>
+              <div className="UXUIDesign content-pic"></div>
+              {/* <img src={UXUIDesignB} alt="UXUI Design BW" /> */}
+              <p className="content">UX/UI DESIGN</p>
             </div>
             <div className="img-section">
-              <img src={GraphicDesignB} alt="Graphic Design BW" />
-              <p>GRAPHIC DESIGN</p>
+              <div className="graphicDesign content-pic"></div>
+              {/* <img src={GraphicDesignB} alt="Graphic Design BW" /> */}
+              <p className="content">GRAPHIC DESIGN</p>
             </div>
           </div>
         </Content>
-        <Footer>Footer</Footer>
+        <Footer>
+          <div className="parent">
+            <div className="children1_aboutMe"></div>
+            <div className="children2_background">
+              <img src={aboutMe} alt="About me" />
+            </div>
+          </div>
+        </Footer>
       </Layout>
     </>
   );
