@@ -2,17 +2,8 @@ import logo from "../../assets/img/ERIX-Logo.png";
 import aboutMe from "../../assets/img/About-me.jpg";
 import "./Home.scss";
 import { Header } from "../Header/Header";
-
-import {
-  MailOutlined,
-  AppstoreOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
-
+import { Link } from "react-router-dom";
 import { Layout } from "antd";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 export const Home = () => {
   const { Footer, Sider, Content } = Layout;
@@ -32,10 +23,12 @@ export const Home = () => {
               <div className="architecture content-pic"></div>
               <p className="content">ARCHITECTURE</p>
             </div>
-            <div className="img-section">
-              <div className="interiorDesign content-pic"></div>
-              <p className="content">INTERIOR DESIGN</p>
-            </div>
+            <Link style={{ textDecoration: "none" }} to="interiorDesign">
+              <div className="img-section">
+                <div className="interiorDesign content-pic"></div>
+                <p className="content">INTERIOR DESIGN</p>
+              </div>
+            </Link>
             <div className="img-section low">
               <div className="UXUIDesign content-pic"></div>
               <p className="content">UX/UI DESIGN</p>
