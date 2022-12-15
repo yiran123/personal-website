@@ -1,7 +1,7 @@
 import logo from "../../assets/img/ERIX-Logo.png";
 import aboutMe from "../../assets/img/About-me.jpg";
 import "./Home.scss";
-import { Header } from "../Header";
+import { Header } from "../Header/Header";
 
 import {
   MailOutlined,
