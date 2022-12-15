@@ -14,35 +14,35 @@ export const InteriorDesign = () => {
     <>
       <Header2 />
       <div className="container">
-        <Link style={{ textDecoration: "none" }} to="NextCosmetics">
+        <Link className="link" to="NextCosmetics">
           <div className="project project1">
             <img src={nextCosmetics} alt="NextCosmetics"></img>
             <p className="title">NEXT COSMETICS</p>
             <p className="date">Spring 2022</p>
           </div>
         </Link>
-        <Link style={{ textDecoration: "none" }} to="MetaPlaza">
+        <Link className="link" to="MetaPlaza">
           <div className="project">
             <img src={metaPlaza} alt="MetaPlaza"></img>
             <p className="title">META PLAZA</p>
             <p className="date">Fall 2022</p>
           </div>
         </Link>
-        <Link style={{ textDecoration: "none" }} to="SeniorHousing">
+        <Link className="link" to="SeniorHousing">
           <div className="project">
             <img src={seniorHouse} alt="nextCosmetics"></img>
             <p className="title">SENIOR HOUSING</p>
             <p className="date">Spring 2022</p>
           </div>
         </Link>
-        <Link style={{ textDecoration: "none" }} to="FertilityClinic">
+        <Link className="link" to="FertilityClinic">
           <div className="project">
             <img src={fertilityClinic} alt="nextCosmetics"></img>
             <p className="title">TWILIGHT FERTILITY CLINIC</p>
             <p className="date">Fall 2022</p>
           </div>
         </Link>
-        <Link style={{ textDecoration: "none" }} to="CurvedPath">
+        <Link className="link" to="CurvedPath">
           <div className="project">
             <img src={cp} alt="nextCosmetics"></img>
             <p className="title">CP RESTAURANT</p>

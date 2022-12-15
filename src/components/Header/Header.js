@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom";
 import "./Header.scss";
 
 const items = [
-  {
-    label: "HOME",
-    key: "/",
-  },
+  // {
+  //   label: "HOME",
+  //   key: "/",
+  // },
   {
     label: "INTERIOR DESIGN",
     key: "/interiorDesign",
