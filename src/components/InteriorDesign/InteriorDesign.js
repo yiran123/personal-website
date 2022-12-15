@@ -23,7 +23,7 @@ export const InteriorDesign = () => {
           <p className="date">Fall 2022</p>
         </div>
         <div className="project">
-          <img src={nextCosmetics} alt="nextCosmetics"></img>
+          <img src={seniorHouse} alt="nextCosmetics"></img>
           <p className="title">SENIOR HOUSING</p>
           <p className="date">Spring 2022</p>
         </div>

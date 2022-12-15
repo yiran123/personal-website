@@ -90,6 +90,9 @@
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    transition: 0.2s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
   }
 }
 
@@ -109,6 +112,9 @@
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    transition: 0.2s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
   }
 }
 
@@ -127,6 +133,9 @@
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    transition: 0.2s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
   }
 }
 
@@ -145,6 +154,9 @@
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    transition: 0.2s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
   }
 }
 
@@ -207,4 +219,28 @@
 .ant-layout-footer {
   background: #fff !important;
   padding: 20rem 0 0 0 !important;
+  .children1_aboutMe {
+    text-align: center;
+    .title {
+      padding: 2.5rem;
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 28px;
+      color: #ffffff;
+    }
+    .content {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 250;
+      font-size: 28px;
+      line-height: 28px;
+      display: flex;
+      align-items: flex-start;
+      color: #ffffff;
+      text-align: left;
+      padding: 1rem 1.5rem;
+    }
+  }
 }

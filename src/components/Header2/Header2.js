@@ -10,37 +10,34 @@ const items = [
     key: "/",
   },
   {
-    label: "ARCHITECTURE",
-    key: "ARCHITECTURE",
-    // icon: <MailOutlined />,
-  },
-  {
     label: "INTERIOR DESIGN",
     key: "/interiorDesign",
     // icon: <MailOutlined />,
   },
   {
+    label: "ARCHITECTURE",
+    key: "/architecture",
+    // key: "ARCHITECTURE",
+    // icon: <MailOutlined />,
+  },
+  {
     label: "UX/UI DESIGN",
-    key: "UX/UI DESIGN",
+    key: "/uxuiDesign",
     // icon: <AppstoreOutlined />,
     // disabled: true,
   },
   {
     label: "GRAPHIC DESIGN",
-    key: "GRAPHIC DESIGN",
-  },
-  {
-    label: "PRODUCT DESIGN",
-    key: "PRODUCT DESIGN",
+    key: "/graphicDesign",
   },
   {
     label: "CONTACT",
-    key: "CONTACT",
+    key: "/contact",
   },
 ];
 
 export const Header2 = () => {
-  const [current, setCurrent] = useState("/");
+  const [current, setCurrent] = useState("/interiorDesign");
   const navigate = useNavigate();
   const onClick = (e) => {
     console.log("click ", e);
