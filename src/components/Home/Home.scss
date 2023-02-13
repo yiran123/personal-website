@@ -34,6 +34,7 @@
   justify-content: center;
   img {
     max-height: 326px;
+    max-width: 100%;
     margin-top: 14rem;
   }
 }
@@ -60,8 +61,12 @@
 }
 
 .content-pic {
-  width: 267px;
-  height: 403px;
+  min-width: 100%;
+  max-width: 267px;
+  height: 100px;
+  @media (min-width: 992px) {
+    height: 403px;
+  }
 }
 
 .content {
@@ -76,7 +81,7 @@
 }
 
 .architecture {
-  background: url(../../assets/img/ARC-Design-b.jpg) no-repeat center center;
+  background: url(../../assets/img/ARC-mobile.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -90,14 +95,14 @@
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    transition: 0.2s;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
+  }
+  @media (min-width: 992px) {
+    background: url(../../assets/img/ARC-Design-b.jpg) no-repeat center center;
   }
 }
 
 .interiorDesign {
-  background: url(../../assets/img/Interior-Design-b.jpg) no-repeat center
+  background: url(../../assets/img/Interior-Design-mobile.png) no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -116,10 +121,14 @@
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
   }
+  @media (min-width: 992px) {
+    background: url(../../assets/img/Interior-Design-b.jpg) no-repeat center
+      center;
+  }
 }
 
 .UXUIDesign {
-  background: url(../../assets/img/UXUI-Design-b.jpg) no-repeat center center;
+  background: url(../../assets/img/UXUI-mobile.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -137,10 +146,13 @@
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
   }
+  @media (min-width: 992px) {
+    background: url(../../assets/img/UXUI-Design-b.jpg) no-repeat center center;
+  }
 }
 
-.graphicDesign {
-  background: url(../../assets/img/Graphic-Design-b.jpg) no-repeat center center;
+.modelDesign {
+  background: url(../../assets/img/Model-mobile.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -158,6 +170,10 @@
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
   }
+  @media (min-width: 992px) {
+    background: url(../../assets/img/Graphic-Design-b.jpg) no-repeat center
+      center;
+  }
 }
 
 .parent {
@@ -169,12 +185,15 @@
 .children1_aboutMe {
   position: relative;
   top: 0;
-  width: 503px;
+  max-width: 503px;
+  width: 100%;
   height: 590px;
-  left: 136px;
   background: rgba(73, 93, 131, 0.7);
   box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.15);
   z-index: 100;
+  @media (min-width: 992px) {
+    left: 136px;
+  }
 }
 
 .children2_background {
@@ -184,6 +203,7 @@
   height: 587px;
   img {
     height: 587px;
+    width: 100%;
   }
 }
 
@@ -206,7 +226,6 @@
     margin: 0 auto;
     justify-content: center;
     .img-section {
-      width: 20vw;
       padding: 0 16px;
       text-align: center;
     }
