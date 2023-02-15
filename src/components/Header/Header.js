@@ -20,13 +20,13 @@ const items = [
     // icon: <MailOutlined />,
   },
   {
-    label: "UX/UI DESIGN",
+    label: "UX/UI/GRAPHIC DESIGN",
     key: "/uxuiDesign",
     // icon: <AppstoreOutlined />,
     // disabled: true,
   },
   {
-    label: "GRAPHIC DESIGN",
+    label: "MODELLING",
     key: "/graphicDesign",
   },
   {

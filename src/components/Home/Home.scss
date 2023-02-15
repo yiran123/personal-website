@@ -87,17 +87,23 @@
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  &:hover {
-    background: url(../../assets/img/ARC-Design-Hover.jpg) no-repeat center
-      center;
+
+  @media (min-width: 992px) {
+    background: url(../../assets/img/ARC-Design-b.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
-  @media (min-width: 992px) {
-    background: url(../../assets/img/ARC-Design-b.jpg) no-repeat center center;
+    &:hover {
+      background: url(../../assets/img/ARC-Design-Hover.jpg) no-repeat center
+        center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
   }
 }
 
@@ -109,21 +115,27 @@
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  &:hover {
-    background: url(../../assets/img/Interior-Design-Hover.jpg) no-repeat center
+
+  @media (min-width: 992px) {
+    background: url(../../assets/img/Interior-Design-b.jpg) no-repeat center
       center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    transition: 0.2s;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-  }
-  @media (min-width: 992px) {
-    background: url(../../assets/img/Interior-Design-b.jpg) no-repeat center
-      center;
+    &:hover {
+      background: url(../../assets/img/Interior-Design-Hover.jpg) no-repeat
+        center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      transition: 0.2s;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in-out;
+    }
   }
 }
 
@@ -134,20 +146,26 @@
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  &:hover {
-    background: url(../../assets/img/UXUI-Design-Hover.jpg) no-repeat center
-      center;
+
+  @media (min-width: 992px) {
+    background: url(../../assets/img/UXUI-Design-b.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    transition: 0.2s;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-  }
-  @media (min-width: 992px) {
-    background: url(../../assets/img/UXUI-Design-b.jpg) no-repeat center center;
+    &:hover {
+      background: url(../../assets/img/UXUI-Design-Hover.jpg) no-repeat center
+        center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      transition: 0.2s;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in-out;
+    }
   }
 }
 
@@ -158,21 +176,26 @@
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  &:hover {
-    background: url(../../assets/img/Graphic-Design-Hover.jpg) no-repeat center
+  @media (min-width: 992px) {
+    background: url(../../assets/img/Graphic-Design-b.jpg) no-repeat center
       center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    transition: 0.2s;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-  }
-  @media (min-width: 992px) {
-    background: url(../../assets/img/Graphic-Design-b.jpg) no-repeat center
-      center;
+    &:hover {
+      background: url(../../assets/img/Graphic-Design-Hover.jpg) no-repeat
+        center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      transition: 0.2s;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in-out;
+    }
   }
 }
 
