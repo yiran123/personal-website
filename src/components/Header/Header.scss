@@ -15,3 +15,22 @@
     text-align: center;
   }
 }
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-selected {
+  color: #495d83 !important;
+  &:after {
+    border-bottom-color: #495d83 !important;
+  }
+}
+
+.ant-menu-horizontal {
+  border-bottom-color: transparent;
+  &:hover {
+    border-bottom-color: transparent;
+  }
+  .ant-menu-item-active {
+    &:after {
+      border-bottom-color: #495d83 !important;
+    }
+  }
+}
