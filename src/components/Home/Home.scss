@@ -27,37 +27,109 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 30vh;
   align-items: center;
   justify-content: center;
+  @media (min-width: 992px) {
+    height: 100vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
   img {
-    max-height: 326px;
+    max-height: 63px;
     max-width: 100%;
-    margin-top: 14rem;
+    margin-top: 6rem;
+    @media (min-width: 992px) {
+      margin-top: 14rem;
+      max-height: 326px;
+    }
   }
 }
 
-.title_name {
-  font-family: "Josefin Sans";
-  font-style: normal;
-  font-weight: 200 !important;
-  font-size: 48px;
-  line-height: 48px;
-  text-align: center;
-  color: #0f244f;
-  margin-top: 32px;
+.name {
+  display: none;
+  @media (min-width: 992px) {
+    display: inline;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 200 !important;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #0f244f;
+    margin-top: 32px;
+  }
 }
 
 .subtitle {
+  display: flex;
   font-family: "Josefin Sans";
   font-style: normal;
-  font-weight: 200 !important;
-  font-size: 24px;
-  line-height: 24px;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 20px;
   text-align: center;
   color: #0f244f;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 6rem 0 0 1rem;
+  @media (min-width: 992px) {
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 200;
+    margin: 0;
+  }
+  .dot {
+    display: none;
+    @media (min-width: 992px) {
+      display: inline;
+    }
+  }
+}
+
+.selfIntro-section {
+  .selfTitle {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0f244f;
+  }
+  .selfName {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0f244f;
+    margin: 0.3rem 0;
+  }
+  .selfIntroduction {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0f244f;
+    margin-top: 1.5rem;
+  }
+  .selfie {
+    width: 100%;
+    padding-right: 1rem;
+  }
+  padding-left: 0.3rem;
+  margin-bottom: 5rem;
+  display: block;
+  @media (min-width: 992px) {
+    display: none;
+  }
 }
 
 .content-pic {
@@ -87,7 +159,6 @@
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   @media (min-width: 992px) {
     background: url(../../assets/img/ARC-Design-b.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -115,7 +186,6 @@
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   @media (min-width: 992px) {
     background: url(../../assets/img/Interior-Design-b.jpg) no-repeat center
       center;
@@ -146,7 +216,6 @@
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   @media (min-width: 992px) {
     background: url(../../assets/img/UXUI-Design-b.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -199,6 +268,13 @@
   }
 }
 
+Footer {
+  display: none;
+  @media (min-width: 992px) {
+    display: block;
+  }
+}
+
 .parent {
   position: relative;
   top: 0;
@@ -240,8 +316,11 @@
 }
 
 .ant-layout-content {
-  padding-top: 14rem;
+  padding-top: 0;
   background-color: #fff;
+  @media (min-width: 992px) {
+    padding-top: 14rem;
+  }
   .pic-section {
     display: flex;
     flex-direction: row;
@@ -253,7 +332,10 @@
       text-align: center;
     }
     .low {
-      margin-top: 123px;
+      margin-top: 0;
+      @media (min-width: 992px) {
+        margin-top: 123px;
+      }
     }
   }
 }
