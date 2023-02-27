@@ -1,13 +1,11 @@
 import { useState } from "react";
 import "./Project.scss";
 
-import { Document, Page, pdfjs } from "react-pdf/dist/esm/entry.webpack";
+import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 
 import { Header2 } from "./Header2/Header2";
 
 import CURVEDPATH from "../assets/projects/CurvedPath.pdf";
-
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export const CurvedPath = () => {
   const [defaultPdfFile] = useState(CURVEDPATH);
