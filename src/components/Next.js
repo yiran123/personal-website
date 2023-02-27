@@ -23,7 +23,7 @@ export const Next = () => {
     <>
       <Header2 />
       <center>
-        <div className="pdf-container desktop">
+        {/* <div className="pdf-container desktop">
           <Document file={defaultPdfFile} onLoadSuccess={onDocumentLoadSuccess}>
             {Array.from(new Array(numPages), (el, index) => (
               <Page
@@ -33,8 +33,8 @@ export const Next = () => {
               />
             ))}
           </Document>
-        </div>
-        <div className="pdf-container mobile">
+        </div> */}
+        <div className="pdf-container">
           <Document file={mobilePdfFile} onLoadSuccess={onDocumentLoadSuccess}>
             {Array.from(new Array(numPages), (el, index) => (
               <Page
