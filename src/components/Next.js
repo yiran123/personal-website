@@ -4,7 +4,7 @@ import "./Project.scss";
 import { Header2 } from "./Header2/Header2";
 
 import Steelcase from "../assets/projects/STEELCASE.pdf";
-import SteelcaseMobile from "../assets/projects/Steelcase_mobile.pdf";
+import SteelcaseMobile from "../assets/projects/CurvedPath.pdf";
 
 import { Row, Col } from "antd";
 import { Document, Page, pdfjs } from "react-pdf";
