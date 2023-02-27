@@ -97,14 +97,15 @@ export const Home = () => {
               <div className="children1_aboutMe">
                 <p className="title">ABOUT ME</p>
                 <p className="content">
-                  Hi, my name is Erix Chen, I'm an interior designer and UX/UI
-                  designer, who focuses on people-oriented design. I have
-                  background about interior design, graphic design, UX/UI
-                  design, architecture design and photography. I have always
-                  been committed to explore the combination of aesthetics, user
-                  experience and space planning. Base on user experience
-                  researches to design people-oriented products and projects
-                  that provide better experiences for all the users.
+                  Hello! My name is Erix Chen and I am an interior designer and
+                  UX/UI designer. I have a passion for creating functional and
+                  aesthetically pleasing spaces that enhance the user
+                  experience. With my background in interior design, UX/UI
+                  design, and a keen eye for detail, I am dedicated to
+                  delivering designs that meet the needs and expectations of my
+                  clients. Whether it's a residential space or a commercial
+                  project, I approach each design challenge with creativity,
+                  efficiency, and a commitment to excellence.
                 </p>
               </div>
               <div className="children2_background">

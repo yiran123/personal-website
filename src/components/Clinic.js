@@ -6,6 +6,7 @@ import { Document, Page, pdfjs } from "react-pdf/dist/esm/entry.webpack";
 import { Header2 } from "./Header2/Header2";
 
 import FertilityCare from "../assets/projects/FertilityCare.pdf";
+import { Row, Col } from "antd";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -23,17 +24,22 @@ export const Clinic = () => {
     <>
       <Header2 />
       <center>
-        <div className="pdf-container">
-          <Document file={defaultPdfFile} onLoadSuccess={onDocumentLoadSuccess}>
-            {Array.from(new Array(numPages), (el, index) => (
-              <Page
-                renderMode="canvas"
-                key={`page_${index + 1}`}
-                pageNumber={index + 1}
-              />
-            ))}
-          </Document>
-        </div>
+        <Row className="pdf-container">
+          <Col span={24}>
+            <Document
+              file={defaultPdfFile}
+              onLoadSuccess={onDocumentLoadSuccess}
+            >
+              {Array.from(new Array(numPages), (el, index) => (
+                <Page
+                  renderMode="canvas"
+                  key={`page_${index + 1}`}
+                  pageNumber={index + 1}
+                />
+              ))}
+            </Document>
+          </Col>
+        </Row>
       </center>
     </>
   );
