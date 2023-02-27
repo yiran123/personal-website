@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import "./Project.scss";
 
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-
 import { Header2 } from "./Header2/Header2";
 
 import Steelcase from "../assets/projects/STEELCASE.pdf";
 import SteelcaseMobile from "../assets/projects/Steelcase_mobile.pdf";
 
 import { Row, Col } from "antd";
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const options = {
   cMapUrl: "cmaps/",

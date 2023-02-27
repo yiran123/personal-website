@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./Project.scss";
 
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-
 import { Header2 } from "./Header2/Header2";
 
 import METABOLCX from "../assets/projects/METABLOCX.pdf";
 import { Row, Col } from "antd";
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export const Meta = () => {
   const [defaultPdfFile] = useState(METABOLCX);
