@@ -7,7 +7,6 @@ import { Header2 } from "./Header2/Header2";
 
 import FertilityCare from "../assets/projects/FertilityCare.pdf";
 import { Row, Col } from "antd";
-
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export const Clinic = () => {
