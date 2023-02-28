@@ -1,11 +1,11 @@
 import { Routes, Route, useNavigate } from "react-router-dom";
-import { Clinic } from "./components/Clinic";
-import { CurvedPath } from "./components/CurvedPath";
+import { Clinic } from "./components/InteriorDesign/projects/Clinic";
+import { CurvedPath } from "./components/InteriorDesign/projects/CurvedPath";
 import { Home } from "./components/Home/Home";
 import { InteriorDesign } from "./components/InteriorDesign/InteriorDesign";
-import { Meta } from "./components/Meta";
-import { Next } from "./components/Next";
-import { Senior } from "./components/Senior";
+import { Meta } from "./components/InteriorDesign/projects/Meta";
+import { Next } from "./components/InteriorDesign/projects/Next";
+import { Senior } from "./components/InteriorDesign/projects/Senior";
 
 function App() {
   return (
