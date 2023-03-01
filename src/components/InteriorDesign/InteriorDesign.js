@@ -13,45 +13,47 @@ import { Col, Row } from "antd";
 export const InteriorDesign = () => {
   return (
     <>
-      <Header2 />
+      <Header2 url="/interiorDesign" />
       <Row>
-        <Col span={24} className="container">
-          <Link className="link" to="NextCosmetics">
-            <div className="project project1">
-              <img src={nextCosmetics} alt="NextCosmetics"></img>
-              <p className="title">NEXT COSMETICS</p>
-              <p className="date">Spring 2022</p>
-            </div>
-          </Link>
-          <Link className="link" to="MetaPlaza">
-            <div className="project">
-              <img src={metaPlaza} alt="MetaPlaza"></img>
-              <p className="title">META PLAZA</p>
-              <p className="date">Fall 2022</p>
-            </div>
-          </Link>
-          <Link className="link" to="SeniorHousing">
-            <div className="project">
-              <img src={seniorHouse} alt="nextCosmetics"></img>
-              <p className="title">SENIOR HOUSING</p>
-              <p className="date">Spring 2022</p>
-            </div>
-          </Link>
-          <Link className="link" to="FertilityClinic">
-            <div className="project">
-              <img src={fertilityClinic} alt="nextCosmetics"></img>
-              <p className="title">TWILIGHT FERTILITY CLINIC</p>
-              <p className="date">Fall 2022</p>
-            </div>
-          </Link>
-          <Link className="link" to="CurvedPath">
-            <div className="project">
-              <img src={cp} alt="nextCosmetics"></img>
-              <p className="title">CP RESTAURANT</p>
-              <p className="date">Spring 2022</p>
-            </div>
-          </Link>
-        </Col>
+        <center>
+          <Col span={17} className="container">
+            <Link className="link" to="NextCosmetics">
+              <div className="project project1">
+                <img src={nextCosmetics} alt="NextCosmetics"></img>
+                <p className="title">NEXT COSMETICS</p>
+                <p className="date">Spring 2022</p>
+              </div>
+            </Link>
+            <Link className="link" to="MetaPlaza">
+              <div className="project">
+                <img src={metaPlaza} alt="MetaPlaza"></img>
+                <p className="title">META PLAZA</p>
+                <p className="date">Fall 2022</p>
+              </div>
+            </Link>
+            <Link className="link" to="SeniorHousing">
+              <div className="project">
+                <img src={seniorHouse} alt="nextCosmetics"></img>
+                <p className="title">SENIOR HOUSING</p>
+                <p className="date">Spring 2022</p>
+              </div>
+            </Link>
+            <Link className="link" to="FertilityClinic">
+              <div className="project">
+                <img src={fertilityClinic} alt="nextCosmetics"></img>
+                <p className="title">TWILIGHT FERTILITY CLINIC</p>
+                <p className="date">Fall 2022</p>
+              </div>
+            </Link>
+            <Link className="link" to="CurvedPath">
+              <div className="project">
+                <img src={cp} alt="nextCosmetics"></img>
+                <p className="title">CP RESTAURANT</p>
+                <p className="date">Spring 2022</p>
+              </div>
+            </Link>
+          </Col>
+        </center>
       </Row>
     </>
   );

@@ -22,13 +22,13 @@ const items = [
     // icon: <MailOutlined />,
   },
   {
-    label: "UX/UI DESIGN",
+    label: "UX/UI/GRAPHIC DESIGN",
     key: "/uxuiDesign",
     // icon: <AppstoreOutlined />,
     // disabled: true,
   },
   {
-    label: "GRAPHIC DESIGN",
+    label: "MODELLING",
     key: "/graphicDesign",
   },
   {
@@ -37,8 +37,9 @@ const items = [
   },
 ];
 
-export const Header2 = () => {
-  const [current, setCurrent] = useState("/interiorDesign");
+export const Header2 = (props) => {
+  const { url } = props;
+  const [current, setCurrent] = useState(url);
   const navigate = useNavigate();
   const onClick = (e) => {
     setCurrent(e.key);

@@ -70,10 +70,11 @@ export const Home = () => {
               </Link>
             </Col>
             <Col xs={24} sm={24} md={6} lg={6} xl={6} className="img-section">
-              <div className="architecture content-pic"></div>
-              <p className="content">ARCHITECTURE</p>
+              <Link style={{ textDecoration: "none" }} to="architecture">
+                <div className="architecture content-pic"></div>
+                <p className="content">ARCHITECTURE</p>
+              </Link>
             </Col>
-
             <Col
               xs={24}
               sm={24}
