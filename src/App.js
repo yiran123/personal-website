@@ -11,6 +11,7 @@ import { UXUI } from "./components/UXUI/UXUI";
 import { Buku } from "./components/UXUI/projects/Buku";
 import { SFACC } from "./components/UXUI/projects/SFACC";
 import { MenuWizard } from "./components/UXUI/projects/MenuWizard";
+import { MuseumOfEmotions } from "./components/Architecture/projects/MuseumofEmotions";
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
         <Route path="interior-design/fertility-clinic" element={<Clinic />} />
         <Route path="interior-design/curved-path" element={<CurvedPath />} />
         <Route path="architecture" element={<Architecture />}></Route>
+        <Route
+          path="architecture/museum-of-emotions"
+          element={<MuseumOfEmotions />}
+        ></Route>
         <Route path="uxuiGraphic-design" element={<UXUI />}></Route>
         <Route path="uxuiGraphic-design/buku" element={<Buku />}></Route>
         <Route path="uxuiGraphic-design/SFACC" element={<SFACC />}></Route>

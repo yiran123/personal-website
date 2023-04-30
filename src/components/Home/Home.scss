@@ -142,7 +142,7 @@
 }
 
 .content {
-  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
@@ -150,6 +150,9 @@
   line-height: 20px;
   text-align: center;
   color: #000000;
+  @media (min-width: 992px) {
+    padding-top: 1rem;
+  }
 }
 
 .architecture {

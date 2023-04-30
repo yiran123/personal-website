@@ -1,5 +1,5 @@
 import { Header2 } from "../Header2/Header2";
-import buku from "../../assets/projects/uxui/buku.png";
+import museumOfEmotions from "../../assets/projects/architecture/museumOfEmotions.png";
 import SFACC from "../../assets/projects/uxui/SFACC.png";
 import menuWizard from "../../assets/projects/uxui/menuWizard.png";
 import { Link } from "react-router-dom";
@@ -12,10 +12,10 @@ export const Architecture = () => {
       <Row>
         <center>
           <Col span={17} className="container">
-            <Link className="link" to="buku">
+            <Link className="link" to="museum-of-emotions">
               <div className="project project1">
-                <img src={buku} alt="Buku"></img>
-                <p className="title">Buku</p>
+                <img src={museumOfEmotions} alt="museum-of-emotions"></img>
+                <p className="title">Museum of Emotions</p>
                 <p className="date">Spring 2022</p>
               </div>
             </Link>
