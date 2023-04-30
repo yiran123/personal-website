@@ -64,7 +64,7 @@ export const Home = () => {
               xl={6}
               className="img-section low"
             >
-              <Link style={{ textDecoration: "none" }} to="interiorDesign">
+              <Link style={{ textDecoration: "none" }} to="interior-design">
                 <div className="interiorDesign content-pic"></div>
                 <p className="content">INTERIOR DESIGN</p>
               </Link>

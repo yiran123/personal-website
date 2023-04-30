@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import SteelcasePDF from "../../../assets/projects/interiorDesign/STEELCASE.pdf";
 import SteelcaseMobilePDF from "../../../assets/projects/interiorDesign/STELLCASE_MOBILE.pdf";
 import Project from "../../project.js";

@@ -6,7 +6,7 @@ import "./Header.scss";
 const items = [
   {
     label: "INTERIOR DESIGN",
-    key: "/interiorDesign",
+    key: "/interior-design",
     // icon: <MailOutlined />,
   },
   {
@@ -17,7 +17,7 @@ const items = [
   },
   {
     label: "UX/UI/GRAPHIC DESIGN",
-    key: "/uxuiDesign",
+    key: "/uxuiGraphic-design",
     // icon: <AppstoreOutlined />,
     // disabled: true,
   },
