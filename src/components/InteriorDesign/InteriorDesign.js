@@ -5,6 +5,8 @@ import metaPlaza from "../../assets/img/Meta-plaza.jpg";
 import seniorHouse from "../../assets/img/Senior-house.jpg";
 import fertilityClinic from "../../assets/img/Fertility-clinic.jpg";
 import cp from "../../assets/img/Curved-path.jpg";
+import malibu from "../../assets/projects/interiorDesign/LA_Malibu_Loft_cover.png";
+import birdcage from "../../assets/projects/interiorDesign/The_Birdcage_Restaurant.png";
 import { Link } from "react-router-dom";
 
 import "../Project.scss";
@@ -50,6 +52,20 @@ export const InteriorDesign = () => {
                 <img src={cp} alt="curved-path"></img>
                 <p className="title">CP RESTAURANT</p>
                 <p className="date">Spring 2022</p>
+              </div>
+            </Link>
+            <Link className="link" to="malibu-loft">
+              <div className="project">
+                <img src={malibu} alt="malibu-loft"></img>
+                <p className="title">LA Malibu Loft</p>
+                <p className="date">Fall 2020</p>
+              </div>
+            </Link>
+            <Link className="link" to="birdcage-restaurant">
+              <div className="project">
+                <img src={birdcage} alt="birdcage-restaurant"></img>
+                <p className="title">The Birdcage Restaurant</p>
+                <p className="date">Fall 2020</p>
               </div>
             </Link>
           </Col>

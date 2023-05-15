@@ -29,7 +29,7 @@ const items = [
   },
   {
     label: "MODELLING",
-    key: "/graphicDesign",
+    key: "/modelling",
   },
   {
     label: "CONTACT",
