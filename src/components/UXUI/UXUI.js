@@ -4,6 +4,7 @@ import SFACC from "../../assets/projects/uxui/SFACC.png";
 import menuWizard from "../../assets/projects/uxui/menuWizard.png";
 import { Link } from "react-router-dom";
 import { Col, Row } from "antd";
+import { Footer2 } from "../Footer2/Footer2";
 
 export const UXUI = () => {
   return (
@@ -36,6 +37,7 @@ export const UXUI = () => {
           </Col>
         </center>
       </Row>
+      <Footer2 />
     </>
   );
 };

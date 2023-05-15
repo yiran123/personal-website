@@ -1,7 +1,8 @@
 import { Header2 } from "../Header2/Header2";
-import IndepChairCabinet from "../../assets/projects/model/Indep_Chair_Cabinet.png";
+import IndepChairCabinet from "../../assets/projects/modelling/Indep_Chair_Cabinet.png";
 import { Link } from "react-router-dom";
 import { Col, Row } from "antd";
+import { Footer2 } from "../Footer2/Footer2";
 
 export const Model = () => {
   return (
@@ -20,6 +21,7 @@ export const Model = () => {
           </Col>
         </center>
       </Row>
+      <Footer2 />
     </>
   );
 };

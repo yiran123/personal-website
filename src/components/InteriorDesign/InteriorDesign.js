@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 
 import "../Project.scss";
 import { Col, Row } from "antd";
+import { Footer2 } from "../Footer2/Footer2";
 
 export const InteriorDesign = () => {
   return (
@@ -71,6 +72,7 @@ export const InteriorDesign = () => {
           </Col>
         </center>
       </Row>
+      <Footer2 />
     </>
   );
 };

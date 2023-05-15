@@ -13,10 +13,11 @@ import { SFACC } from "./components/UXUI/projects/SFACC";
 import { MenuWizard } from "./components/UXUI/projects/MenuWizard";
 import { MuseumOfEmotions } from "./components/Architecture/projects/MuseumofEmotions";
 import { NewsStand } from "./components/Architecture/projects/NewsStand";
-import { Model } from "./components/Model/Model";
-import { Indep } from "./components/Model/projects/Indep";
+import { Model } from "./components/Modelling/Model";
+import { Indep } from "./components/Modelling/projects/Indep";
 import { MalibuLoft } from "./components/InteriorDesign/projects/MalibuLoft";
 import { Birdcage } from "./components/InteriorDesign/projects/Birdcage";
+import { Contact } from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         ></Route>
         <Route path="modelling" element={<Model />}></Route>
         <Route path="modelling/indep-chair-cabinet" element={<Indep />}></Route>
+        <Route path="contact" element={<Contact />}></Route>
       </Routes>
     </>
   );

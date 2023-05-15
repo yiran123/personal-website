@@ -1,0 +1,41 @@
+.footer2 {
+  visibility: hidden;
+  margin-top: 4rem;
+  @media (min-width: 992px) {
+    visibility: visible;
+    height: 25rem;
+    background: url(../../assets/img/About-me.jpg) no-repeat center center;
+    position: relative;
+    bottom: 0;
+  }
+}
+
+.selfIntro {
+  display: none;
+  @media (min-width: 992px) {
+    display: block;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0f244f;
+    padding: 3.5rem 4rem;
+  }
+}
+
+.contactMe {
+  visibility: hidden;
+  @media (min-width: 992px) {
+    visibility: visible;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    position: absolute;
+    right: 4.5rem;
+    bottom: 5rem;
+  }
+}

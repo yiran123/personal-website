@@ -3,6 +3,7 @@ import museumOfEmotions from "../../assets/projects/architecture/museumOfEmotion
 import newsStand from "../../assets/projects/architecture/newsStand.png";
 import { Link } from "react-router-dom";
 import { Col, Row } from "antd";
+import { Footer2 } from "../Footer2/Footer2";
 
 export const Architecture = () => {
   return (
@@ -18,7 +19,7 @@ export const Architecture = () => {
                 <p className="date">Spring 2022</p>
               </div>
             </Link>
-            <Link className="link" to="new-stand">
+            <Link className="link" to="news-stand">
               <div className="project">
                 <img src={newsStand} alt="newsStand"></img>
                 <p className="title">News Stand</p>
@@ -28,6 +29,7 @@ export const Architecture = () => {
           </Col>
         </center>
       </Row>
+      <Footer2 />
     </>
   );
 };

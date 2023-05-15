@@ -10,7 +10,7 @@ export const Home = () => {
   const { Footer, Sider, Content } = Layout;
 
   return (
-    <>
+    <div>
       <Header />
       <Layout>
         <Row>
@@ -116,6 +116,6 @@ export const Home = () => {
           </Row>
         </Footer>
       </Layout>
-    </>
+    </div>
   );
 };
