@@ -3,7 +3,7 @@ import MuseumOfEmotionsPDF from "../../../assets/projects/architecture/museumOfE
 import MuseumOfEmotionsMobilePDF from "../../../assets/projects/architecture/museumOfEmotions_mobile.pdf";
 import Project from "../../project.js";
 export const MuseumOfEmotions = () => {
-  const [defaultPdfFile] = useState(MuseumOfEmotionsPDF);
+  const [defaultPdfFile] = useState(MuseumOfEmotionsMobilePDF);
   const [mobilePdfFile] = useState(MuseumOfEmotionsMobilePDF);
 
   return (

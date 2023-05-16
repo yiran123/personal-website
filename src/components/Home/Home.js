@@ -83,12 +83,16 @@ export const Home = () => {
               xl={6}
               className="img-section low"
             >
-              <div className="UXUIDesign content-pic"></div>
-              <p className="content">UX/UI DESIGN</p>
+              <Link style={{ textDecoration: "none" }} to="uxuiGraphic-design">
+                <div className="UXUIDesign content-pic"></div>
+                <p className="content">UX/UI DESIGN</p>
+              </Link>
             </Col>
             <Col xs={24} sm={24} md={6} lg={6} xl={6} className="img-section">
-              <div className="modelDesign content-pic"></div>
-              <p className="content">MODEL DESIGN</p>
+              <Link style={{ textDecoration: "none" }} to="modelling">
+                <div className="modelDesign content-pic"></div>
+                <p className="content">MODEL DESIGN</p>
+              </Link>
             </Col>
           </Row>
         </Content>
