@@ -18,6 +18,7 @@ import { Indep } from "./components/Modelling/projects/Indep";
 import { MalibuLoft } from "./components/InteriorDesign/projects/MalibuLoft";
 import { Birdcage } from "./components/InteriorDesign/projects/Birdcage";
 import { Contact } from "./components/Contact/Contact";
+import { MB } from "./components/InteriorDesign/projects/MB";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="interior-design" element={<InteriorDesign />}></Route>
+        <Route path="interior-design/microBehemoths" element={<MB />} />
         <Route path="interior-design/next-cosmetics" element={<Next />} />
         <Route path="interior-design/meta-plaza" element={<Meta />} />
         <Route path="interior-design/senior-housing" element={<Senior />} />

@@ -7,6 +7,7 @@ import fertilityClinic from "../../assets/img/Fertility-clinic.jpg";
 import cp from "../../assets/img/Curved-path.jpg";
 import malibu from "../../assets/projects/interiorDesign/LA_Malibu_Loft_cover.png";
 import birdcage from "../../assets/projects/interiorDesign/The_Birdcage_Restaurant.png";
+import MB from "../../assets/projects/interiorDesign/MB.png";
 import { Link } from "react-router-dom";
 
 import "../Project.scss";
@@ -20,8 +21,15 @@ export const InteriorDesign = () => {
       <Row>
         <center>
           <Col span={17} className="container">
-            <Link className="link" to="next-cosmetics">
+            <Link className="link" to="microBehemoths">
               <div className="project project1">
+                <img src={MB} alt="microBehemoths"></img>
+                <p className="title">MICRO BEHEMOTHS</p>
+                <p className="date">Spring 2023</p>
+              </div>
+            </Link>
+            <Link className="link" to="next-cosmetics">
+              <div className="project">
                 <img src={nextCosmetics} alt="next-cosmetics"></img>
                 <p className="title">NEXT COSMETICS</p>
                 <p className="date">Spring 2022</p>

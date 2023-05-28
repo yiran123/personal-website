@@ -4,6 +4,8 @@ import "./Project.scss";
 import { Header2 } from "./Header2/Header2";
 import { Row, Col } from "antd";
 import { Document, Page, pdfjs } from "react-pdf";
+import YoutubeEmbed from "./YoutubeEmbed.js";
+import "./YoutubeEmbed.scss";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const options = {
@@ -13,7 +15,7 @@ const options = {
 };
 
 const Project = (props) => {
-  const { defaultPdfFile, mobilePdfFile } = props;
+  const { defaultPdfFile, mobilePdfFile, video } = props;
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -28,6 +30,7 @@ const Project = (props) => {
       <center>
         <Row className="pdf-container desktop">
           <Col span={24}>
+            {video && <YoutubeEmbed embedId="rsSpLbzOezw" />}
             <Document
               file={defaultPdfFile}
               onLoadSuccess={onDocumentLoadSuccess}
@@ -45,6 +48,7 @@ const Project = (props) => {
         </Row>
         <Row className="pdf-container mobile">
           <Col span={24}>
+            {video && <YoutubeEmbed embedId="rsSpLbzOezw" />}
             <Document
               file={mobilePdfFile}
               onLoadSuccess={onDocumentLoadSuccess}

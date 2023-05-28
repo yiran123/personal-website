@@ -19,7 +19,7 @@ export const Footer2 = () => {
         </p>
       </Col>
       <Col span={14}>
-        <Link className="contactMe" to="contact">
+        <Link className="contactMe" to="/contact">
           CONTACT ME
         </Link>
       </Col>
