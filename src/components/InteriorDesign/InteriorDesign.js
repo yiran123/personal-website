@@ -25,56 +25,73 @@ export const InteriorDesign = () => {
               <div className="project project1">
                 <img src={MB} alt="microBehemoths"></img>
                 <p className="title">MICRO BEHEMOTHS</p>
-                <p className="date">Spring 2023</p>
+                <p className="date">
+                  <span className="genre">Exhibition & Hospitality </span>Spring
+                  2023
+                </p>
               </div>
             </Link>
             <Link className="link" to="next-cosmetics">
               <div className="project">
                 <img src={nextCosmetics} alt="next-cosmetics"></img>
                 <p className="title">NEXT COSMETICS</p>
-                <p className="date">Spring 2022</p>
+                <p className="date">
+                  <span className="genre">Office </span>Spring 2022
+                </p>
               </div>
             </Link>
             <Link className="link" to="meta-plaza">
               <div className="project">
                 <img src={metaPlaza} alt="meta-plaza"></img>
                 <p className="title">META PLAZA</p>
-                <p className="date">Fall 2022</p>
+                <p className="date">
+                  <span className="genre">Retail & Plaza </span>Fall 2022
+                </p>
               </div>
             </Link>
             <Link className="link" to="senior-housing">
               <div className="project">
                 <img src={seniorHouse} alt="senior-housing"></img>
                 <p className="title">SENIOR HOUSING</p>
-                <p className="date">Spring 2022</p>
+                <p className="date">
+                  <span className="genre">Housing </span>Spring 2022
+                </p>
               </div>
             </Link>
             <Link className="link" to="fertility-clinic">
               <div className="project">
                 <img src={fertilityClinic} alt="fertility-clinic"></img>
                 <p className="title">TWILIGHT FERTILITY CLINIC</p>
-                <p className="date">Fall 2022</p>
+                <p className="date">
+                  <span className="genre">Healthcare </span>Fall 2022
+                </p>
               </div>
             </Link>
             <Link className="link" to="curved-path">
               <div className="project">
                 <img src={cp} alt="curved-path"></img>
                 <p className="title">CP RESTAURANT</p>
-                <p className="date">Spring 2022</p>
+                <p className="date">
+                  <span className="genre">Hospitality </span>Spring 2022
+                </p>
               </div>
             </Link>
             <Link className="link" to="malibu-loft">
               <div className="project">
                 <img src={malibu} alt="malibu-loft"></img>
                 <p className="title">LA Malibu Loft</p>
-                <p className="date">Fall 2020</p>
+                <p className="date">
+                  <span className="genre">Residential </span>Fall 2020
+                </p>
               </div>
             </Link>
             <Link className="link" to="birdcage-restaurant">
               <div className="project">
                 <img src={birdcage} alt="birdcage-restaurant"></img>
                 <p className="title">The Birdcage Restaurant</p>
-                <p className="date">Fall 2020</p>
+                <p className="date">
+                  <span className="genre">Hospitality </span>Fall 2020
+                </p>
               </div>
             </Link>
           </Col>

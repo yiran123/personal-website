@@ -86,7 +86,7 @@
     color: #000000;
     font-family: "Josefin Sans";
     font-style: normal;
-    font-weight: 300;
+    font-weight: lighter;
     font-size: 14px;
     line-height: 14px;
     margin: 0;
@@ -94,6 +94,9 @@
       font-size: 28px;
       line-height: 28px;
     }
+  }
+  .genre {
+    font-weight: normal;
   }
 }
 
