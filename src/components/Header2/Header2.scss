@@ -1,3 +1,24 @@
 .header2 {
-  top: 200px !important;
+  margin-top: 200px !important;
+}
+
+.mobile {
+  display: block;
+  .ant-menu-item-selected {
+    background-color: transparent !important;
+    font-weight: bold;
+  }
+  .ant-menu-item {
+    height: 1.625rem;
+  }
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+
+.desktop {
+  display: none;
+  @media (min-width: 992px) {
+    display: block;
+  }
 }
